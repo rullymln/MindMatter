@@ -1,7 +1,7 @@
 import Button from '../components/Button';
-import '../pages/login.css'
+import '../pages/register.css'
 
-function Login() {
+function Register() {
 
     return (
         <>
@@ -33,4 +33,4 @@ function Login() {
     )
 }
 
-export default Login;
+export default Register;
