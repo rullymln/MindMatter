@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #DAFFFB;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.mindmatter {
+    background-color: #176b87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 80px;
+}
+
+hr {
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+p {
+    color: black;
+}
+
+.sub-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+input {
+    border-radius: 10px;
+    padding-inline: 10px;
+    height: 40px;
+    border: none;
+    background-color: white;
+}
+
+.btn-daftar {
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
